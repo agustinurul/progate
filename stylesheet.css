@@ -1,0 +1,183 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda dibawah */
+.container{
+  width: 1170px;
+  padding:0 15px;
+  margin: 0 auto;
+}
+.top-wrapper{
+  text-align: center;
+  background-image:url(https://prog-8.com/images/html/advanced/top_en.png);
+  color: white;
+  background-size: cover;
+  padding: 180px 0 100px 0;
+}
+.top-wrapper h1{
+  padding-top: 10px;
+  letter-spacing: 5px;
+  font-size: 45px;
+  opacity: 0.7;
+}
+.top-wrapper p{
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+.btn-wrapper{
+  margin: 20px;
+}
+.btn-wrapper p{
+  margin: 10px 0;
+}
+.btn{
+  color: white;
+  padding: 12px 24px;
+  opacity: 0.8;
+  display: inline-block;
+}
+.btn:hover{
+  opacity: 1;
+}
+.email{
+  background-color: #239b76;
+}
+.facebook{
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.twitter{
+  background-color: #55acee;
+}
+.fa{
+  margin-right: 5px;
+}
+
+header{
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.logo{
+  width: 124px;
+  padding-top: 20px;
+}
+.header-left{
+  float: left;
+}
+.header-right{
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  float: right;
+  height: 65px;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 65px;
+}
+.header-right a{
+  display: block;
+}
+.header-right:hover{
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.heading{
+  color: #5f5d60;
+  font-weight: normal;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.content-wrapper{
+  height: 580px;
+  background-color: #f7f7f7;
+}
+.heading h2{
+  font-weight: normal;
+}
+.lesson{
+  float: left;
+  width: 25%;
+
+}
+.lesson-icon{
+  position: relative;
+  text-align: center;
+}
+.lesson-icon p{
+  position: absolute;
+  top: 90px;
+  bottom: 20px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+.lesson-text{
+  width: 80%;
+  color: #b3aeb5;
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
+  padding-left: 25px;
+}
+.message{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.text-message h2{
+  font-weight: normal;
+  padding-top: 60px;
+  color: #5f5d60;
+}
+.text-message h3{
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+
+.btn-popup{
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  border-radius: 4px;
+  
+  
+}
+.btn-popup:active{
+  position: relative;
+  top: 7px;
+  box-shadow:none;
+}
+footer{
+  padding-top: 30px;
+}
+footer img{
+  width: 124px;
+}
+footer p{
+  color: #b3aeb5;
+  font-size: 12px;
+}
